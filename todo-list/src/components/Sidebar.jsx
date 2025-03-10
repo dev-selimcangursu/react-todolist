@@ -17,12 +17,11 @@ const Sidebar = () => {
       <div>
         <div className="sidebar__user__info flex justify-between items-center">
           <h5>Selimcan Gürsu</h5>
-          <div className="sidebar__user__icon flex gap-2">
+          <div className="sidebar__user__icon flex justify-between items-center gap-2">
             <IoIosNotificationsOutline size={20} />
-            <BsReverseLayoutTextWindowReverse size={15} />
+            <BsReverseLayoutTextWindowReverse  size={15} />
           </div>
         </div>
-
         {/* Menü Listesi */}
         <div className="sidebar__list mt-5 flex-grow">
           <a href="" className="flex items-center mt-2">
